@@ -1,0 +1,159 @@
+
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --primary-color:linear-gradient(100deg,lightcoral,rgba(221, 217, 217, 0.959));
+            --secondary-color:black;
+        }
+        .classadd{
+            --primary-color:linear-gradient(100deg,black,rgba(168, 167, 167, 0.959));
+            --secondary-color:white;
+
+        }
+
+
+
+
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background:var(--primary-color);
+            
+
+        }
+
+        .con-nav {
+            width: 90%;
+            margin: auto;
+            height: 50px;
+
+
+        }
+
+        .con-nav .nav-left {
+            float: left;
+            font-size: 2.4rem;
+            color: orange;
+            font-family: serif;
+            padding: 4px 16px;
+        }
+
+        .con-nav .nav-right {
+            float: right;
+            padding: 8px 0px;
+            margin: 6px 0px;
+
+        }
+
+        .nav-right li {
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        .nav-right li a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            font-family: sans-serif;
+            width: 50px;
+            padding: 8px 6px;
+            text-align: center;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .con {
+            
+            width: 90%;
+            height: 93%;
+            
+            
+            display: flex;
+            margin: auto;
+         
+
+        }
+
+        .con .con-left {
+            width: 50%;
+            height: 100%;
+            float: left;
+        
+        }
+
+        .con .con-right {
+            width: 50%;
+            height: 100%;
+            float: left;
+      
+        }
+
+
+
+
+
+
+
+
+.con-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+        .left-text1{
+            font-size: 2.5rem;
+            color: orange;
+            font-weight: bold;
+            word-spacing: 1.8;            
+        }
+        .left-text2{
+            font-size: 1.3rem;
+            font-family: sans-serif;
+            color:var(--secondary-color);
+            margin: 2% 0;
+        }
+        .left-text3{
+            font-size: 1.2rem;
+            width: 140px;
+            height: 40px;
+            padding: 8px 0;
+            text-align: center;
+            color: var(--secondary-color);
+            background: #8b8888;
+            border-radius: 3px;
+            margin: 2% 0;
+        }
+        .left-text3:hover{
+            background: white;
+            color: rgb(94, 92, 92);
+            cursor: pointer;
+        }
+
+
+
+
+
+        .con-right img{
+            width: 90%;
+            height: 95%;
+            margin-top: 5%;
+        }
