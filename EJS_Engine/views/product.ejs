@@ -4,45 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Blog</title>
+    <title><%=title%></title>
    <link rel="stylesheet" href="css/product.css">
 </head>
 
 <body>
 
 
-    <div class="nav-side" id="nav-side">
-        <div class="nav-text">RM desginers</div>
-        <div class="list">
-            <li class="close" onclick="nav_close()">Close</li>
-            <li><a href="/index">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/register">Register Now</a></li>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div id="op">
-
-
-
-        <div class="con-1">
-            <div class="nav">
-                <a href="#" onclick="nav_open()">☰</a>
-            </div>
-            <div class="m-text">
-                <p class="m-text1">My Products</p>
-            </div>
-            <div class="m-text2">New</div>
-        </div>
+    <%- include ('includes/nav')%>
     
     
     

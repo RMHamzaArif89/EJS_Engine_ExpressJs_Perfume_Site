@@ -18,66 +18,6 @@
 
 
 
-
-
-        .container {
-            width: 100%;
-            height: 100vh;
-            background:var(--primary-color);
-            
-
-        }
-
-        .con-nav {
-            width: 90%;
-            margin: auto;
-            height: 50px;
-
-
-        }
-
-        .con-nav .nav-left {
-            float: left;
-            font-size: 2.4rem;
-            color: orange;
-            font-family: serif;
-            padding: 4px 16px;
-        }
-
-        .con-nav .nav-right {
-            float: right;
-            padding: 8px 0px;
-            margin: 6px 0px;
-
-        }
-
-        .nav-right li {
-            list-style: none;
-            display: inline-block;
-
-        }
-
-        .nav-right li a {
-            text-decoration: none;
-            color: var(--secondary-color);
-            font-size: 1.2rem;
-            font-family: sans-serif;
-            width: 50px;
-            padding: 8px 6px;
-            text-align: center;
-
-        }
-
-
-
-
-
-
-
-
-
-
-
         .con {
             
             width: 90%;

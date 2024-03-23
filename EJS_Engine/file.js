@@ -11,16 +11,16 @@ app.set('views','views')
 
 
 app.get('/index',(req,res)=>{
-    res.render('index')
+    res.render('index',{title:'Home|page'})
 })
 app.get('/product',(req,res)=>{
-    res.render('product')
+    res.render('product',{title:'Product|page'})
 })
 app.get('/about',(req,res)=>{
-    res.render('about')
+    res.render('about',{title:'About|Page'})
 })
 app.get('/register',(req,res)=>{
-    res.render('register')
+    res.render('register',{title:'Regiser|Page'})
 })
 
 
