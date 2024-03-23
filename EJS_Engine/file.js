@@ -10,8 +10,17 @@ app.set('views','views')
 
 
 
-app.get('/home',(req,res)=>{
+app.get('/index',(req,res)=>{
     res.render('index')
+})
+app.get('/product',(req,res)=>{
+    res.render('product')
+})
+app.get('/about',(req,res)=>{
+    res.render('about')
+})
+app.get('/register',(req,res)=>{
+    res.render('register')
 })
 
 
