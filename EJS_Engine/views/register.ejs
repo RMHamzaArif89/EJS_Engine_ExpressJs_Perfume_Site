@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+  <link rel="stylesheet" href="/css/register.css">
+</head>
+
+<body>
+    <div class="container-nav">
+        <div class="con-nav">
+            <div class="nav-left">
+                AB Prefume
+            </div>
+            <div class="nav-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pro.html">Product</a></li>
+                <li><a href="/About.html">About</a></li>
+              
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="con">
+            <form action="index.html" id="form">
+
+                <label class="lname">NAME </label><input type="text" name="" placeholder="Enter name" class="input" id="name" onkeyup="inpName()">
+                <label>EMAIL <input type="email" name="" placeholder="Enter EMAIL" class="input"></label>
+                <label>PASSWORD <input type="password" name="password" placeholder="Enter password"
+                        class="input"></label>
+                <label>ADDRESS<textarea name="address" cols="15" rows="4" class="input"
+                        placeholder="Address"></textarea></label>
+                <label class="lPhone"> CELL </label><input type="number" name="cell" class="input" placeholder="Phone" id="pNum" onkeyup="phoneNum()">
+                <label class="lclg">COELLEGE </label> <input type="text" name="" class="input" placeholder="College name" id="clgName" onkeyup="collegeName()">
+                <label> AGE </label><input type="date" name="age" class="input" placeholder="Enter Age"></label>
+                <button type="submit" id="submit">Submit</button>
+
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/register.js"></script>
+    <!--      btn = document.querySelector('#form')
+        btn.addEventListener('submit',function fun(event) {
+
+            inp = document.querySelectorAll('.input')
+            event.preventDefault()
+            for (let index = 0; index < inp.length; index++) {
+                if (inp[index].value == '') {
+                    inp[index].style.background = 'red'
+                    inp[index].style.color = 'black'
+                    inp[index].placeholder = 'please enter value'
+
+
+                } else {
+                    inp[index].style.background = 'green'
+
+
+                }
+
+
+            }
+    
+
+
+        }) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+</body>
+
+</html>
